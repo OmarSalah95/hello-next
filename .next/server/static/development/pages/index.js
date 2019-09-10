@@ -93,6 +93,136 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./pages/components/Form.jsx":
+/*!***********************************!*\
+  !*** ./pages/components/Form.jsx ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Form.jsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Form = props => {
+  const {
+    0: userInput,
+    1: setUserInput
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("");
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("form", {
+    onSubmit: event => {
+      event.preventDefault();
+      props.setNotes(userInput);
+      setUserInput('');
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, __jsx("input", {
+    type: "text",
+    name: "note",
+    placeholder: "Enter Note",
+    value: userInput,
+    onChange: event => setUserInput(event.target.value),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Form);
+
+/***/ }),
+
+/***/ "./pages/components/Note.jsx":
+/*!***********************************!*\
+  !*** ./pages/components/Note.jsx ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Note.jsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Note = props => {
+  return __jsx("div", {
+    onClick: event => {
+      props.noteObject.isCompleted = !props.noteObject.isCompleted;
+      props.noteObject.isCompleted ? event.target.className = "done" : event.target.className = "";
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, props.noteObject.note), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }), props.noteObject.isCompleted);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Note);
+
+/***/ }),
+
+/***/ "./pages/components/Notes.jsx":
+/*!************************************!*\
+  !*** ./pages/components/Notes.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Note_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Note.jsx */ "./pages/components/Note.jsx");
+var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Notes.jsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+// import React from 'react'
+//https://fe-notes.herokuapp.com/note/get/all
+
+
+const Notes = props => {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, props.notes ? props.notes.map(noteObject => __jsx(_Note_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    key: noteObject.index,
+    noteObject: noteObject,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  })) : null);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Notes);
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -106,53 +236,87 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/index.scss */ "./pages/styles/index.scss");
-/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Notes_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Notes.jsx */ "./pages/components/Notes.jsx");
+/* harmony import */ var _components_Form_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Form.jsx */ "./pages/components/Form.jsx");
+/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/index.scss */ "./pages/styles/index.scss");
+/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/tank/git/hello-next/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11
-      },
-      __self: this
-    }, __jsx("title", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
-    }, "Next.js App"), __jsx("link", {
-      rel: "shortcut icon",
-      href: "../static/favicon.ico",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
-    })), __jsx("section", {
-      className: "app",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      },
-      __self: this
-    }, __jsx("h1", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17
-      },
-      __self: this
-    }, "Next.js App!")));
-  }
 
-}
+
+const Index = () => {
+  const {
+    0: notes,
+    1: setNotes
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([{
+    note: "Finish this app.",
+    isComplete: false
+  }, {
+    note: "Git Commit",
+    isComplete: false
+  }, {
+    note: "Git push",
+    isComplete: false
+  }, {
+    note: "Git High",
+    isComplete: false
+  }]);
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, "Next.js App"), __jsx("link", {
+    rel: "shortcut icon",
+    href: "../static/favicon.ico",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  })), __jsx("section", {
+    className: "app",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, "Next.js To-Do App!"), __jsx(_components_Notes_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    notes: notes,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }), __jsx(_components_Form_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    setNotes: newNote => setNotes([...notes, {
+      note: newNote,
+      isCompete: false
+    }]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  })));
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
