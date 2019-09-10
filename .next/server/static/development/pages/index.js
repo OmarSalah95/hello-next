@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Form.jsx";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\components\\Form.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -154,7 +154,7 @@ const Form = props => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Note.jsx";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\components\\Note.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -166,19 +166,19 @@ const Note = props => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 3
     },
     __self: undefined
   }, __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 11
     },
     __self: undefined
   }, props.noteObject.note), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 12
     },
     __self: undefined
   }), props.noteObject.isCompleted);
@@ -200,7 +200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Note_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Note.jsx */ "./pages/components/Note.jsx");
-var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Notes.jsx";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\components\\Notes.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // import React from 'react'
@@ -240,7 +240,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Form_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Form.jsx */ "./pages/components/Form.jsx");
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/index.scss */ "./pages/styles/index.scss");
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/tank/git/hello-next/pages/index.js";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -340,7 +340,7 @@ const Index = () => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/tank/git/hello-next/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\elper\Desktop\work\NextJs\hello-next\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

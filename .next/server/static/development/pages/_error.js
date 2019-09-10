@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \******************************************************************************/
+/***/ "./node_modules/.registry.npmjs.org/@babel/runtime-corejs2/7.4.5/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/.registry.npmjs.org/@babel/runtime-corejs2/7.4.5/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -110,17 +110,17 @@ module.exports = _interopRequireDefault;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_error.js":
-/*!************************************************!*\
-  !*** ./node_modules/next/dist/pages/_error.js ***!
-  \************************************************/
+/***/ "./node_modules/.registry.npmjs.org/next/9.0.5_react-dom@16.9.0+react@16.9.0/node_modules/next/dist/pages/_error.js":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/.registry.npmjs.org/next/9.0.5_react-dom@16.9.0+react@16.9.0/node_modules/next/dist/pages/_error.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/.registry.npmjs.org/@babel/runtime-corejs2/7.4.5/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.default = void 0;
@@ -222,7 +222,7 @@ const styles = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next/dist/pages/_error */"./node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__(/*! next/dist/pages/_error */"./node_modules/.registry.npmjs.org/next/9.0.5_react-dom@16.9.0+react@16.9.0/node_modules/next/dist/pages/_error.js");
 
 
 /***/ }),

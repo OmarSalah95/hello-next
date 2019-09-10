@@ -1,4 +1,38 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+
+/***/ "./node_modules/.registry.npmjs.org/next/9.0.5_react-dom@16.9.0+react@16.9.0/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Celper%5CDesktop%5Cwork%5CNextJs%5Chello-next%5Cpages%5Cindex.js!./":
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.registry.npmjs.org/next/9.0.5_react-dom@16.9.0+react@16.9.0/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Celper%5CDesktop%5Cwork%5CNextJs%5Chello-next%5Cpages%5Cindex.js ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+      if(true) {
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage.default || updatedPage)
+        })
+      }
+      return { page: page.default || page }
+    }]);
+  
+
+/***/ }),
+
+/***/ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js":
+/*!*****************************************************************************************************************************************!*\
+  !*** delegated ./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js from dll-reference dll_4386e04c63d4c7fb1c7f ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_4386e04c63d4c7fb1c7f */ "dll-reference dll_4386e04c63d4c7fb1c7f"))("./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js");
+
+/***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -3215,7 +3249,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js"));
 
 exports.AmpStateContext = React.createContext({});
 
@@ -3243,7 +3277,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js"));
 
 var amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next-server/dist/lib/amp-context.js");
 
@@ -3296,7 +3330,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js"));
 
 exports.HeadManagerContext = React.createContext(null);
 
@@ -3326,7 +3360,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js"));
 
 var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next-server/dist/lib/side-effect.js"));
 
@@ -3499,7 +3533,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var react_1 = __webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js");
 
 var isServer = false;
 
@@ -3577,40 +3611,6 @@ exports["default"] = function () {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Ftank%2Fgit%2Fhello-next%2Fpages%2Findex.js!./":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Ftank%2Fgit%2Fhello-next%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-      if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
-        })
-      }
-      return { page: page.default || page }
-    }]);
-  
-
-/***/ }),
-
-/***/ "./node_modules/react/index.js":
-/*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/react/index.js");
-
-/***/ }),
-
 /***/ "./pages/components/Form.jsx":
 /*!***********************************!*\
   !*** ./pages/components/Form.jsx ***!
@@ -3620,9 +3620,9 @@ module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Form.jsx";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\components\\Form.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3672,9 +3672,9 @@ var Form = function Form(props) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Note.jsx";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\components\\Note.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3686,19 +3686,19 @@ var Note = function Note(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 3
     },
     __self: this
   }, __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 11
     },
     __self: this
   }, props.noteObject.note), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 12
     },
     __self: this
   }), props.noteObject.isCompleted);
@@ -3717,10 +3717,10 @@ var Note = function Note(props) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Note_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Note.jsx */ "./pages/components/Note.jsx");
-var _jsxFileName = "/Users/tank/git/hello-next/pages/components/Notes.jsx";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\components\\Notes.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // import React from 'react'
@@ -3755,7 +3755,7 @@ var Notes = function Notes(props) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/.registry.npmjs.org/react/16.9.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
@@ -3764,7 +3764,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/index.scss */ "./pages/styles/index.scss");
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "/Users/tank/git/hello-next/pages/index.js";
+var _jsxFileName = "C:\\Users\\elper\\Desktop\\work\\NextJs\\hello-next\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -3849,25 +3849,25 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Ftank%2Fgit%2Fhello-next%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************/
+/*!***********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Celper%5CDesktop%5Cwork%5CNextJs%5Chello-next%5Cpages%5Cindex.js ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Ftank%2Fgit%2Fhello-next%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Ftank%2Fgit%2Fhello-next%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Celper%5CDesktop%5Cwork%5CNextJs%5Chello-next%5Cpages%5Cindex.js! */"./node_modules/.registry.npmjs.org/next/9.0.5_react-dom@16.9.0+react@16.9.0/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Celper%5CDesktop%5Cwork%5CNextJs%5Chello-next%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_01f9a3fa864a7b7414d8":
+/***/ "dll-reference dll_4386e04c63d4c7fb1c7f":
 /*!*******************************************!*\
-  !*** external "dll_01f9a3fa864a7b7414d8" ***!
+  !*** external "dll_4386e04c63d4c7fb1c7f" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_01f9a3fa864a7b7414d8;
+module.exports = dll_4386e04c63d4c7fb1c7f;
 
 /***/ })
 
